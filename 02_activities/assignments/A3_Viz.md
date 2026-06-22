@@ -7,7 +7,7 @@ PollinateTO is a program offered by the City of Toronto that provides grants of 
 - Expand or enhance an existing garden by adding native pollinator-friendly plants
 - Convert a lawn area, boulevard or hard surface to a pollinator garden
 
-## Analysis and Insights
+## Visualization and Insights
 
 Using dataset available on the City of Toronto open data catalogue, the number of cumulative pollinator gardens created under this program across the city are shown in the choropleth map below. City wards including Parkdale-High Park (23), Toronto Danforth (19), Toronto Centre (16) and Davenport (16) are city wards that have benefited the most from this program. They have the respective number of pollinator gardens shown in parenthese established between 2020 and 2025. 
 <br>
