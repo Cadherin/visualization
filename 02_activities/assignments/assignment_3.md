@@ -8,22 +8,56 @@
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
 - For each visualization, describe and justify: 
     > What software did you use to create your data visualization?
+    Map (Viz 1): I used ArcGIS to create the map view of the visualization. 
+    Chart (Viz 2): I used python to generate the chart.
+    Table: I used Excel to create a pivot table to summarize the results and complement the map and chart visuals. 
+
+    Please see the this markdown page on github for a compilation of data visualization created on this subject: https://github.com/Cadherin/visualization/blob/main/02_activities/assignments/A3_Viz.md 
 
     > Who is your intended audience? 
-    
+    Both map and chart (Viz 1 & 2): The audience is the general public with an interest in gardening and efforts that the City of Toronto has put towards promoting pollinator gardens.
+
     > What information or message are you trying to convey with your visualization? 
+    Map (Viz 1): The distribution of funded pollinator gardens across the City of Toronto by ward
+    Chart (Viz 2): The breakdown of the number of pollinator gardens by type and year funded.
     
     > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+
+    Map (Viz 1):
+    - Type of visualization: A choropleth map was selected to use shades of colours to represent aggregate summary of pollinator gardens funded between 2020 and 2025. The map enables the audience to see where the most and least number of cumulative pollinator garden sites are spatially. The darker the color, the higher the number in the respective ward.
+
+    - Cognitive load: By using map as a familiar object to the audience, it reduces the cognition load required to process the information. Audience would intuitively understand that the map has the intent to convey spatial information. By breaking down the map into wards, the audience can easily see the comparison across smaller areas within the map. 
+    
+    Chart (Viz 2): 
+    - Type of visualization: A horizontal stacked bar chart was selected to illustrate the types of pollinator gardens funded over the years. The stacked format allows comparison of the total number of gardens while also showing the contribution in each funding year. Colour was used to represent garden types and each bar represents one funded year. 
+
+    - Cognitive load: A limited colour palette was used to reduce visual clutter. Data cleanup was performed to group all rain gardens into a single type instead of how breaking it down further as in the raw data to reduce the number of garden types that need to be shown in the chart. Labels and axis titles were added to provide context, including colour legend for the garden types. The plot was also organized so that the most common garden types were easier to identify, creating a clearer visual hierarchy.
     
     > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+
+    By selecting an open dataset available on a City of Toronto website, I ensure that the dataset is accessible and could be retrieved by all. 
+    
+    Map (Viz 1): The tool used for making the chart was ArcGIS. There is an online version of this tool that is freely accessible to the public and also through trial. It is a standard mapping software that is widely used.
+
+    Chart (Viz 2): The chart was generated using python. It can be reproduced given access to the dataset and setup of a coding interface that is free. 
     
     > How did you ensure that your data visualization is accessible?  
+
+    By exporting the map and chart (Viz 1 & 2) as images and uploaded them to a web location (i.e. Github) that could be visited by anyone with an internet connection, I ensure that the data visualization is accessible. 
     
-    > Who are the individuals and communities who might be impacted by your visualization?  
+    > Who are the individuals and communities who might be impacted by your visualization?
+
+    Individuals and communities that might be impacted by both the map and the chart (Viz 1 & 2) include those who manage the pollinator gardening program and oversee the funding process. Insights on the types of pollinator gardens that have a lower cumulative number could inform targeted promotion efforts to support the respective groups that may not be aware of the program but could benefit. Insights on city wards that have fewer pollinator gardens could also inform changes in outreach efforts. By looking at the number of gardens funded over the years, increasing or decreasing trends could be spotted to inform whether the program is getting consistent traction. 
     
     > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+
+    Map: For a minimalist choropleth to be created, only the aggregate sum of gardens for each ward in the map was displayed. To avoid making the map too cluttered, only the ward names were shown as textual labels. 
+
+    Chart: For a horizontal stacked chart that is not too overwhelming for the audience to process, only the funded year and garden type were features shown in the chart. The garden type categories were also simplified to reduce the number of types and colours that need to be used. The reduction of the number of garden types was achieved by lumping all rain gardens into a single type instead of splitting them into sub-types as in the raw dataset as mentioned above. 
     
     > What ‘underwater labour’ contributed to your final data visualization product?
+
+    There was not significant underwater labour needed to create both the map and the chart visualization. The only hidden data cleaning work was to group the rain garden related garden types into one. This involved light coding and transformation efforts. 
 
 - This assignment is intentionally open-ended - you are free to create static or dynamic data visualizations, maps, or whatever form of data visualization you think best communicates your information to your audience of choice! 
 - Total word count should not exceed **(as a maximum) 1000 words** 
