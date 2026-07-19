@@ -34,6 +34,14 @@
         
         c. Perceptual (Can we understand what message the maker of the visualization is attempting to convey): The message is clear that many Ukrainians left the country shortly after Russian’s invasion. The map clearly illustrates where they have moved as well as the top countries where they now reside including Poland, Hungary and Slovakia.
 
+        How could this visualization be improved?
+
+        The following enhancements could make the map better:
+
+        - Although the the map and dot density chart combo is effectively in illustrating migration patterns of citizens from Ukraine outward to the nearby European countries, readers would need to look across two sets of maps to see the effect of the migration. To complement the map view, there are a couple of alternatives that could enhance the storytelling: 
+            1. One is a simple bar chart that shows the number of refugees from Ukraine by countries and the two selected dates (i.e. y-axis showing number of refugees, x-axis showing countries, sorted by number of refugees, color legend would be for the two different points in time. For each country, two bars would be side-by-side together showing the contrast of the different number of refugees across two dates.)
+            2. A second supplementary visual would be two sets of sankey diagrams side-by-side that illustrate the outflux of citizens from Ukraine to nearby European countries at two points in time. The width of a flow would present the number of refugees migrated out of Ukraine. 
+
       2. The not so good: An article published by the New York Times titled “The Global AI Divide”. It can be viewed here: https://www.nytimes.com/interactive/2025/06/23/technology/ai-computing-global-divide.html
       
       Note: The visualization being reviewed is related to a map view of global data center locations at the top of the article linked above. This data visualization was reproduced by the New York Times using data published by the Oxford University in a publication titled “Compute North Vs. Compute South: The Uneven Possibilities of Compute-Based AI Governance Around the Globe”. The publication is located here: 
